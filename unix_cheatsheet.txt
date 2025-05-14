@@ -1,0 +1,38 @@
+Here is a great tutorial to get acquainted with Unix commands and a summary of the most common commands. 
+I highly recommend that once you understand the basics section, work through the advanced section. There are some VERY useful things there!!
+
+https://smutch.github.io/UnixTutorial/
+
+Command			Description
+------- 		-----------
+ls			list files and directories
+ls -a			list all files and directories (including hidden)
+mkdir			make a directory
+cd directory		change to named directory
+cd			change to home-directory
+cd ~			change to home-directory
+cd ..			change to parent (up one) directory of current location
+cd -			change the the previous directory that you were in
+pwd			display the full path of the current directory
+cp file1 file2		copy file1 and call it file2
+mv file1 file2		move or rename file1 to file2
+rm file			remove a file
+rmdir directory		remove a directory
+cat file		display a file
+more file		display a file a page at a time
+head file		display the first few lines of a file
+tail file		display the last few lines of a file
+grep 'keyword' file	search a file for keywords
+find 'file' directory	search for a file in a directory
+wc file			count number of lines/words/characters in file
+command > file		redirect standard output to a file
+command >> file		append standard output to a file
+command < file		redirect standard input from a file
+command1 | command2	pipe the output of command1 to the input of command2
+cat file1 file2 > file0	concatenate file1 and file2 to file0
+sort			sort data
+*			match any number of characters
+?			match one character
+man command		read the online manual page for a command
+whatis command		brief description of a command
+apropos keyword		match commands with keyword in their man pages
